@@ -7,12 +7,16 @@
 </template>
 <script lang="ts">
 import Vue from "vue";
-import Component from "vue-class-component";
 
-@Component({})
-export default class App extends Vue {
-  text: string = "Hello There";
-  mounted() {}
-}
+export default Vue.extend({
+  data(){
+    return {
+      text: "Hello There"
+    }
+  },
+  mounted() {
+    console.log(this.text)
+  }
+})
 </script>
 

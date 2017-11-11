@@ -8,8 +8,7 @@
     "typescript": "^2.6.1"
   },
   "dependencies": {
-    "poi": "^9.5.1",
-    "vue-class-component": "^6.1.0"
+    "poi": "^9.5.1"
   },
   "scripts": {
     "dev": "poi index.ts",
